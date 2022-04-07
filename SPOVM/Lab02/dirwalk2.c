@@ -23,12 +23,12 @@ int k=2;
     if(argc>2){
     while (argc!=k)
 {
-if (argv[k][1]=='d') {printf("КАТАЛОГИ:\n"); searchDir(argv[1]);}
-if (argv[k][1]=='f') {printf("ФАЙЛЫ:\n"); searchFile(argv[1]);}
-if (argv[k][1]=='l') {printf("ЛИНКИ:\n");searchLink(argv[1]);}
-if (argv[k][1]=='w') {printf("КАТАЛОГИ:\n"); searchDir(argv[1]); sort_outFile(outPath);}
-if (argv[k][1]=='e') {printf("ФАЙЛЫ:\n"); searchFile(argv[1]); sort_outFile(outPath);}
-if (argv[k][1]=='r') {printf("ЛИНКИ:\n");searchLink(argv[1]); sort_outFile(outPath);}
+if (argv[k][1]=='d') {printf("directories:\n"); searchDir(argv[1]);}
+if (argv[k][1]=='f') {printf("files:\n"); searchFile(argv[1]);}
+if (argv[k][1]=='l') {printf("links:\n");searchLink(argv[1]);}
+if (argv[k][1]=='w') {printf("directories:\n"); searchDir(argv[1]); sort_outFile(outPath);}
+if (argv[k][1]=='e') {printf("files:\n"); searchFile(argv[1]); sort_outFile(outPath);}
+if (argv[k][1]=='r') {printf("links:\n");searchLink(argv[1]); sort_outFile(outPath);}
 
 
 
@@ -54,7 +54,7 @@ void search(char * pt){
     DIR * di = opendir(pt);
     struct stat stt;
     if(!di){
-        printf("Ошибка открытия %s\n", pt);
+        printf("Error %s\n", pt);
         return;
     }
     
@@ -68,7 +68,7 @@ void search(char * pt){
          if(S_ISDIR(stt.st_mode))
              search(path);
       
-          fprintf(outfile,"ВСЕ: %s\n", path);
+          fprintf(outfile,"ALL: %s\n", path);
           
          
     }
@@ -109,7 +109,7 @@ void searchFile(char * pt){
     DIR * di = opendir(pt);
     struct stat stt;
     if(!di){
-        printf("Ошибка открытия %s\n", pt);
+        printf("Error %s\n", pt);
         return;
     }
     
@@ -124,7 +124,7 @@ void searchFile(char * pt){
              searchFile(path);
              
       if(S_ISREG(stt.st_mode))
-          fprintf(outfile,"ФАЙЛ: %s\n", path);
+          fprintf(outfile,"file: %s\n", path);
           
          
     }
@@ -147,7 +147,7 @@ void searchLink(char * pt){
     DIR * di = opendir(pt);
     struct stat stt;
     if(!di){
-        printf("Ошибка открытия %s\n", pt);
+        printf("Error %s\n", pt);
         return;
     }
     
@@ -162,7 +162,7 @@ void searchLink(char * pt){
              searchLink(path);
              
       if(S_ISLNK(stt.st_mode))
-          fprintf(outfile,"ЛИНК: %s\n", path);
+          fprintf(outfile,"link: %s\n", path);
           
          
     }
@@ -183,7 +183,7 @@ void searchDir(char * pt){
     DIR * di = opendir(pt);
     struct stat stt;
     if(!di){
-        printf("Ошибка открытия %s\n", pt);
+        printf("Error %s\n", pt);
         return;
     }
     
@@ -198,7 +198,7 @@ void searchDir(char * pt){
              searchDir(path);
              
       if(S_ISDIR(stt.st_mode))
-          fprintf(outfile,"КАТАЛОГ: %s\n", path);
+          fprintf(outfile,"directory: %s\n", path);
           
          
     }
