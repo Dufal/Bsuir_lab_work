@@ -1,0 +1,11 @@
+ФАЙЛ: /home/pavel/Projects//Laba2/c.cpp
+ФАЙЛ: /home/pavel/Projects//Laba2/Makefile
+ФАЙЛ: /home/pavel/Projects//Laba2/p.cpp
+ФАЙЛ: /home/pavel/Projects//Laba2/input.txt
+ФАЙЛ: /home/pavel/Projects//Laba2/c
+ФАЙЛ: /home/pavel/Projects//Laba2/p
+ФАЙЛ: /home/pavel/Projects//Laba1/dirwalk2.c
+ФАЙЛ: /home/pavel/Projects//Laba1/Makefile
+ФАЙЛ: /home/pavel/Projects//Laba1/outfile.txt
+ФАЙЛ: /home/pavel/Projects//Laba1/outfile
+ФАЙЛ: /home/pavel/Projects//Laba1/dirwalk2
