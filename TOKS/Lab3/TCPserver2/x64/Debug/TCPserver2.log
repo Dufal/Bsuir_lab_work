@@ -1,0 +1,7 @@
+﻿  Source.cpp
+D:\Semestr_5\TOKS\Lab3\TCPserver2\Source.cpp(108,27): warning C4244: =: преобразование "SOCKET" в "int", возможна потеря данных
+D:\Semestr_5\TOKS\Lab3\TCPserver2\Source.cpp(142,38): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Semestr_5\TOKS\Lab3\TCPserver2\Source.cpp(88,19): warning C4101: result: неиспользованная локальная переменная
+D:\Semestr_5\TOKS\Lab3\TCPserver2\Source.cpp(87,33): warning C4101: receiveMessage: неиспользованная локальная переменная
+D:\Semestr_5\TOKS\Lab3\TCPserver2\Source.cpp(87,14): warning C4101: sendMessage: неиспользованная локальная переменная
+  TCPserver2.vcxproj -> D:\Semestr_5\TOKS\Lab3\x64\Debug\TCPserver2.exe
