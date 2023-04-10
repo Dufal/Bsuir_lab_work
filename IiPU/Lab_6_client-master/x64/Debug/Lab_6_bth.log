@@ -1,0 +1,2 @@
+﻿  main.cpp
+C:\Users\Pavel\OneDrive\Рабочий стол\Lab_6_client-master\main.cpp(152,56): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
