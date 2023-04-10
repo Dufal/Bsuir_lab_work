@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Semestr_5\IiPU\TestLab2\Project1\Project1\Source.cpp(55,35): error C2440: инициализация: невозможно преобразовать "LPTSTR" в "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+D:\Semestr_5\IiPU\TestLab2\Project1\Project1\Source.cpp(55,35): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
