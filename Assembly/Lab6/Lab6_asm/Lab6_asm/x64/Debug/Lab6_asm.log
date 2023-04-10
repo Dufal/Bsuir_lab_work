@@ -1,0 +1,7 @@
+﻿  Source.cpp
+D:\ForAssembly\Labs\Lab6\Lab6_asm\Lab6_asm\Source.cpp(6,5): error C4235: использовано нестандартное расширение: ключевое слово "__asm" данной архитектурой не поддерживается
+D:\ForAssembly\Labs\Lab6\Lab6_asm\Lab6_asm\Source.cpp(7,9): error C2065: mov: необъявленный идентификатор
+D:\ForAssembly\Labs\Lab6\Lab6_asm\Lab6_asm\Source.cpp(7,13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "esi"
+D:\ForAssembly\Labs\Lab6\Lab6_asm\Lab6_asm\Source.cpp(7,13): error C2065: esi: необъявленный идентификатор
+D:\ForAssembly\Labs\Lab6\Lab6_asm\Lab6_asm\Source.cpp(8,13): error C3260: "идентификатор": пропускаются непредвиденные токены перед телом лямбда-функции
+D:\ForAssembly\Labs\Lab6\Lab6_asm\Lab6_asm\Source.cpp(46,1): fatal error C1004: непредвиденное обнаружение конца файла
