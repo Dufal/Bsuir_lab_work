@@ -1,0 +1,74 @@
+***  Installation Started 03/29/2007 12:02  ***
+Title: PETS - Универсальная Система Тестирования Installation
+Source: D:\Твимс\Vzlom tst\Vzlom\Pets/Pets.EXE
+Made Dir: C:\Pets
+File Copy: C:\Pets\UNWISE.EXE
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\PETS
+RegDB Val: PETS
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\PETS
+RegDB Val: C:\Pets\UNWISE.EXE C:\Pets\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+Made Dir: C:\Pets\Skins
+Made Dir: C:\Pets\Skins\Современный
+File Copy: C:\Pets\Skins\Современный\Down2.bmp
+File Copy: C:\Pets\Skins\Современный\Down1.bmp
+File Copy: C:\Pets\Skins\Современный\Dis2.bmp
+File Copy: C:\Pets\Skins\Современный\Dis1.bmp
+File Copy: C:\Pets\Skins\Современный\1.bmp
+Made Dir: C:\Pets\Skins\Зелень
+File Copy: C:\Pets\Skins\Зелень\Up2.bmp
+File Copy: C:\Pets\Skins\Зелень\Up1.bmp
+File Copy: C:\Pets\Skins\Зелень\Skin.ini
+Made Dir: C:\Pets\Lang
+File Copy: C:\Pets\Lang\By.ini
+File Copy: C:\Pets\Lang\En.ini
+File Copy: C:\Pets\Lang\Ru.ini
+Made Dir: C:\Pets\Skins\Дерево
+File Copy: C:\Pets\Skins\Дерево\1.bmp
+File Copy: C:\Pets\Skins\Современный\Skin.ini
+File Copy: C:\Pets\Skins\Дерево\Dis1.bmp
+File Copy: C:\Pets\Skins\Дерево\Dis2.bmp
+File Copy: C:\Pets\Skins\Дерево\Down1.bmp
+File Copy: C:\Pets\Skins\Дерево\Down2.bmp
+File Copy: C:\Pets\Skins\Дерево\Skin.ini
+File Copy: C:\Pets\Skins\Дерево\Up1.bmp
+File Copy: C:\Pets\Skins\Дерево\Up2.bmp
+Made Dir: C:\Pets\Skins\Звёзды
+File Copy: C:\Pets\Skins\Звёзды\1.bmp
+File Copy: C:\Pets\Skins\Звёзды\Dis1.bmp
+File Copy: C:\Pets\Skins\Звёзды\Dis2.bmp
+File Copy: C:\Pets\Skins\Звёзды\Down1.bmp
+File Copy: C:\Pets\Skins\Звёзды\Down2.bmp
+File Copy: C:\Pets\Skins\Современный\Up1.bmp
+File Copy: C:\Pets\Skins\Современный\Up2.bmp
+File Copy: C:\Pets\Skins\Звёзды\Skin.ini
+File Copy: C:\Pets\Skins\Звёзды\Up1.bmp
+File Copy: C:\Pets\Skins\Звёзды\Up2.bmp
+File Copy: C:\Pets\Skins\Зелень\1.bmp
+File Copy: C:\Pets\Skins\Зелень\Dis1.bmp
+File Copy: C:\Pets\Skins\Зелень\Dis2.bmp
+File Copy: C:\Pets\Skins\Зелень\Down1.bmp
+File Copy: C:\Pets\Skins\Зелень\Down2.bmp
+File Copy: C:\Pets\TestPlayer.exe
+File Copy: C:\Pets\Setup.ini
+File Copy: C:\Pets\Riched.dll
+File Copy: C:\Pets\Pets.hlp
+File Copy: C:\Pets\Pets.cnt
+File Copy: C:\Pets\Cfx32.ocx
+File Copy: C:\Pets\AgentDll.dll
+File Copy: C:\Pets\1.swf
+Made Dir: C:\Documents and Settings\Adm\Главное меню\Программы\PETS
+Shell Link: C:\Documents and Settings\Adm\Главное меню\Программы\PETS\TestPlayer.lnk
+Shell Link: C:\Documents and Settings\Adm\Главное меню\Программы\PETS\Pets Help.lnk
+Shell Link: C:\Documents and Settings\Adm\Главное меню\Программы\PETS\Unwise.lnk
+Self-Register: C:\Pets\Cfx32.ocx
+RegDB Key: .tst
+RegDB Val: TestPlayer.Document
+RegDB Key: TestPlayer.Document
+RegDB Val: TestPlayer Document
+RegDB Key: TestPlayer.Document\shell\open\command
+RegDB Val: C:\Pets\TestPlayer.exe %1
+User Rights: Admin
