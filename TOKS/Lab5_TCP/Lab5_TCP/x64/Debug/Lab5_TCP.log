@@ -1,0 +1,31 @@
+﻿  tcp.cpp
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(54,23): warning C4244: инициализация: преобразование "SOCKET" в "int", возможна потеря данных
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(56,80): error C2664: "int setsockopt(SOCKET,int,int,const char *,int)": невозможно преобразовать аргумент 4 из "int *" в "const char *"
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(56,57): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsock.h(829,16): message : см. объявление "setsockopt"
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(88,9): error C2065: socklen_t: необъявленный идентификатор
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(88,19): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "senderLength"
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(88,19): error C2065: senderLength: необъявленный идентификатор
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(89,64): error C2065: senderLength: необъявленный идентификатор
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(90,30): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(99,20): error C4996: 'ctime': This function or variable may be unsafe. Consider using ctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(114,9): error C2065: socklen_t: необъявленный идентификатор
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(114,19): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "myAddressLength"
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(114,19): error C2065: myAddressLength: необъявленный идентификатор
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(115,57): error C2065: myAddressLength: необъявленный идентификатор
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(125,17): error C3861: read: идентификатор не найден
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(142,12): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(145,62): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(149,30): warning C4244: =: преобразование "SOCKET" в "int", возможна потеря данных
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(211,30): error C2065: F_SETFL: необъявленный идентификатор
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(211,39): error C2065: O_NONBLOCK: необъявленный идентификатор
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(211,9): error C3861: fcntl: идентификатор не найден
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(191,22): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(224,26): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(227,29): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(228,31): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(241,22): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(242,21): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(243,23): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(283,28): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Semestr_5\TOKS\Lab5_TCP\Lab5_TCP\tcp.cpp(284,30): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

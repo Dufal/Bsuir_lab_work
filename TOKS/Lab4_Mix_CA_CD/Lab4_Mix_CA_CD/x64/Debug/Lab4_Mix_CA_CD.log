@@ -1,0 +1,9 @@
+﻿  Source.cpp
+  The contents of <bit> are available only with C++20 or later.
+D:\Semestr_5\TOKS\Lab4_Mix_CA_CD\Lab4_Mix_CA_CD\Source.cpp(220,26): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\Semestr_5\TOKS\Lab4_Mix_CA_CD\Lab4_Mix_CA_CD\Source.cpp(232,23): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Semestr_5\TOKS\Lab4_Mix_CA_CD\Lab4_Mix_CA_CD\Source.cpp(240,23): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Semestr_5\TOKS\Lab4_Mix_CA_CD\Lab4_Mix_CA_CD\Source.cpp(260,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Semestr_5\TOKS\Lab4_Mix_CA_CD\Lab4_Mix_CA_CD\Source.cpp(271,22): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\Semestr_5\TOKS\Lab4_Mix_CA_CD\Lab4_Mix_CA_CD\Source.cpp(320,23): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Lab4_Mix_CA_CD.vcxproj -> D:\Semestr_5\TOKS\Lab4_Mix_CA_CD\x64\Debug\Lab4_Mix_CA_CD.exe
